@@ -2,7 +2,7 @@
 
 ## Description
 
-The third programming project involves writing a program that draws two types of shapes, ovals and rectangles. This program consists of six classes. The first class is the Shape class, which is an abstract class that extends the predefined Java class Rectangle. It should contain two instance variables, the color of the shape and whether the shape is solid or hollow. It should also contain a class (static) variable that keeps track of how many shapes have been created.. It should have three instance methods, one class method and one abstract method:
+The programming project involves writing a program that draws two types of shapes, ovals and rectangles. This program consists of six classes. The first class is the Shape class, which is an abstract class that extends the predefined Java class Rectangle. It should contain two instance variables, the color of the shape and whether the shape is solid or hollow. It should also contain a class (static) variable that keeps track of how many shapes have been created. It should have three instance methods, one class method and one abstract method:
 
 1. A constructor that accepts three parameters for the purpose of initializing the characteristics of the shape, a Rectangle object that defines the dimensions and position of the shape, the color of the shape and whether the shape is solid or hollow. It should also update the number of shapes created so far.
 2. An instance method named setColor that accepts the Graphics object as a parameter and sets the color for the next draw operation to the color of the current shape.
@@ -33,7 +33,7 @@ The fifth class named OutsideBounds should define a checked exception.
 The sixth class named Project3 should contain the main method. It should generate the GUI shown below:
 The
 
-![Alt text](https://github.com/lavivien-cs-projects/legoMania/blob/master/image3.jpg?raw=true "Title")
+![Alt text](https://github.com/lavivien-cs-projects/drawGraphics/blob/master/geometrics.jpg?raw=true "Title")
 
 The combo-box for the shape type should allow two choices, either Rectangle or Oval. The combo-box for the fill type should also allow two choices, either Hollow or Solid. The combo-box for the color should allow seven choices, Black, Red, Orange, Yellow, Green, Blue or Magenta.
 
